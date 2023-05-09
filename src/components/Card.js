@@ -20,7 +20,7 @@ const Card = ({course,liked,setLiked}) => {
     return (
         <div className='w-[300px] bg-bgDark rounded-md overflow-hidden bg-opacity-80'>
             <div className=' relative'>
-                <img src={course.image.url} />
+                <img src={course.image.url} alt='img'/>
                 <div>
                     <button className='rounded-full w-[40px] h-[40px] bg-white absolute right-2 bottom-[-20px] flex justify-center items-center'
                     onClick={likeHandle}>
